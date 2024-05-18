@@ -6,7 +6,7 @@
 #define MAXSIZE_STRING 256
 
 int main(){
-    //Primer cliente. EL primer cliente debe hacer la función init.
+    //Primer cliente. EL primer cliente debe hacer la función init
     if(init()==-1){
         printf("---------------Cliente 1 error init-----------------\n");
         printf("Error en init\n");
